@@ -65,7 +65,7 @@ new Observable(subscribe).subscribe(some => console.log(some));
  */
 Observable.create(subscribe).subscribe(some => console.log(some));
 ```
-![](rx-examples/images/1-next-error-complete.jpg)
+![](images/1-next-error-complete.jpg)
 
 ---
 ## Example-2 (of)

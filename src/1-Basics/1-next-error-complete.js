@@ -1,46 +1,26 @@
 const {Observable} = require('rxjs');
 
-const someArray = [
-    {
-        id: 1,
-        name: 'One'
-    },
-    {
-        id: 2,
-        name: 'Two'
-    },
-    {
-        id: 3,
-        name: 'Three'
-    },
-    {
-        id: 4,
-        name: 'Four'
-    }
-];
-
+/*
+    class Subscriber<T> extends Subscription implements Observer<T>
+*/
 const subscribe = (subscriber) => {
-    // Variant 1
-    // for (let book of someArray){
-    //     subscriber.next(book);
-    // }
 
+    // Print something every second
     const intervalID = setInterval(() => {
-        console.log('Interval. Print something...')
-    }, [1000]);
+        console.log('🟢 Interval. Print something...')
+    }, 1_000);
 
-    // Variant 2
-    someArray.forEach(element => {
+    ['One', 'Two', 'Three'].forEach(element => {
         subscriber.next(element);
-        if (element.id === 5) {
-            subscriber.error('some error');
+        if (element === 'No errors') {
+            subscriber.error('🆘 Some error');
         }
     })
 
     setTimeout(() => {
-        console.log('Timeout. Subscriber.complete()')
+        console.log('✅ Subscriber.completed')
         subscriber.complete();
-    }, [2000]);
+    }, 2_000);
 
     /**
      * This is like "useEffect" hook in React
@@ -48,7 +28,7 @@ const subscribe = (subscriber) => {
      */
     return () => {
         clearInterval(intervalID);
-        console.log('Return function. Done!');
+        console.log('🧹 Cleaned');
     }
 }
 
@@ -59,7 +39,7 @@ new Observable(subscribe).subscribe(some => console.log(some));
 
 /**
  * Same implementation, but...
- * !!!!create() function is deprecated
+ * ! create() function is deprecated
  */
-Observable.create(subscribe).subscribe(some => console.log(some));
+//Observable.create(subscribe).subscribe(some => console.log(some));
 
