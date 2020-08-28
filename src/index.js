@@ -1,11 +1,7 @@
-import {fromEvent} from "rxjs";
+import './events/1-fromEvent';
+import './events/2-fromEventPattern';
 
-const button = document.getElementById('rxjs-button-id');
 
-fromEvent(button, 'click')
-    .subscribe(event => {
 
-        const someDiv = document.getElementById('some-div-id');
 
-        someDiv.innerHTML += 'hello world' + '<br>';
-    });
+
