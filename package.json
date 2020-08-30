@@ -35,7 +35,22 @@
     "start: index: Example_16 (scheduled)": "ts-node src/1-Index/16-scheduled.ts",
     "start: index: Example_17 (combineLatest)": "ts-node src/1-Index/17-combineLatest.ts",
     "start: index: Example_18 (isObservable)": "ts-node src/1-Index/18-isObservable.ts",
-    "start: index: Example_19 (pairs)": "ts-node src/1-Index/19-pairs.ts"
+    "start: index: Example_19 (pairs)": "ts-node src/1-Index/19-pairs.ts",
+    "start: index: Example_20 (race)": "ts-node src/1-Index/20-race.ts",
+    "start: index: Example_21 (zip)": "ts-node src/1-Index/21-zip.ts",
+    "start: index: Example_22 (throwError)": "ts-node src/1-Index/22-throwError.ts",
+
+
+    "start: operators: Example_1 (audit)": "ts-node src/2-Operators/1-1-audit.ts",
+
+    "start: operators: transformation: Example_1 (buffer)": "ts-node src/2-Operators/Transformation/1-buffer.ts",
+    "start: operators: transformation: Example_2 (bufferCount)": "ts-node src/2-Operators/Transformation/2-bufferCount.ts",
+    "start: operators: transformation: Example_3 (bufferWhen)": "ts-node src/2-Operators/Transformation/3-bufferWhen.ts",
+    "start: operators: transformation: Example_4 (bufferTime)": "ts-node src/2-Operators/Transformation/4-bufferTime.ts",
+    "start: operators: transformation: Example_5 (bufferToggle)": "ts-node src/2-Operators/Transformation/5-bufferToggle.ts"
+
+
+
   },
   "keywords": [],
   "author": "",
