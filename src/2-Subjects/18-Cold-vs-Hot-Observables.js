@@ -1,5 +1,8 @@
 /*
 
+Cold - > SINGLE subscription
+Hot -> Multiple
+
 Cold Observables:
 1. Value producer created inside the observable
 2. One observer per execution

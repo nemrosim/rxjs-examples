@@ -15,7 +15,7 @@ const timer$ = (interval) => new Observable(subscriber => {
         if (iteration === 6) {
             subscriber.complete();
         }
-    }, [interval])
+    }, interval)
 
     /**
      * !!!!! THIS IS REQUIRED TO CLEAN INTERVAL

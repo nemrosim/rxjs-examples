@@ -1,16 +1,15 @@
-import { ajax } from "rxjs/ajax";
+const {ajax} = require("rxjs/ajax");
 
 // Solves CORS issue in Node
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-
 ajax({
-	url: 'http://worldclockapi.com/api/json/est/now',
+	url: 'https://jsonplaceholder.typicode.com/posts',
 	method: 'GET',
 	// ! Solves CORS issue
 	crossDomain: true,
 	// ! Solves CORS issue
-	createXHR: function () {
+	createXHR: () => {
 		return new XMLHttpRequest();
 	}
 })
