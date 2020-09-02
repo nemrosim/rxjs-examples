@@ -60,7 +60,17 @@
     "start: operators: transformation: Example_15 (mergeMap)": "ts-node src/2-Operators/Transformation/15-mergeMap.ts",
     "start: operators: transformation: Example_16 (mergeMapTo)": "ts-node src/2-Operators/Transformation/16-mergeMapTo.ts",
     "start: operators: transformation: Example_17 (scan)": "ts-node src/2-Operators/Transformation/17-scan.ts",
-    "start: operators: transformation: Example_18 (mergeScan)": "ts-node src/2-Operators/Transformation/18-mergeScan.ts"
+    "start: operators: transformation: Example_18 (mergeScan)": "ts-node src/2-Operators/Transformation/18-mergeScan.ts",
+    "start: operators: transformation: Example_19 (pairwise)": "ts-node src/2-Operators/Transformation/19-pairwise.ts",
+    "start: operators: transformation: Example_20 (partition)": "ts-node src/2-Operators/Transformation/20-partition.ts",
+    "start: operators: transformation: Example_21 (pluck)": "ts-node src/2-Operators/Transformation/21-pluck.ts",
+    "start: operators: transformation: Example_22 (switchMap)": "ts-node src/2-Operators/Transformation/22-switchMap.ts",
+    "start: operators: transformation: Example_23 (switchMapTo)": "ts-node src/2-Operators/Transformation/23-switchMapTo.ts",
+    "start: operators: transformation: Example_24 (window)": "ts-node src/2-Operators/Transformation/24-window.ts",
+    "start: operators: transformation: Example_25 (windowCount)": "ts-node src/2-Operators/Transformation/25-windowCount.ts",
+    "start: operators: transformation: Example_26 (windowTime)": "ts-node src/2-Operators/Transformation/26-windowTime.ts",
+    "start: operators: transformation: Example_27 (windowToggle)": "ts-node src/2-Operators/Transformation/27-windowToggle.ts",
+    "start: operators: transformation: Example_28 (windowWhen)": "ts-node src/2-Operators/Transformation/28-windowWhen.ts"
 
 
 
