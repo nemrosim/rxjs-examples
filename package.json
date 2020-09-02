@@ -47,7 +47,21 @@
     "start: operators: transformation: Example_2 (bufferCount)": "ts-node src/2-Operators/Transformation/2-bufferCount.ts",
     "start: operators: transformation: Example_3 (bufferWhen)": "ts-node src/2-Operators/Transformation/3-bufferWhen.ts",
     "start: operators: transformation: Example_4 (bufferTime)": "ts-node src/2-Operators/Transformation/4-bufferTime.ts",
-    "start: operators: transformation: Example_5 (bufferToggle)": "ts-node src/2-Operators/Transformation/5-bufferToggle.ts"
+    "start: operators: transformation: Example_5 (bufferToggle)": "ts-node src/2-Operators/Transformation/5-bufferToggle.ts",
+    "start: operators: transformation: Example_6 (concatMap)": "ts-node src/2-Operators/Transformation/6-concatMap.ts",
+    "start: operators: transformation: Example_7 (concatMapTo)": "ts-node src/2-Operators/Transformation/7-concatMapTo.ts",
+    "start: operators: transformation: Example_8 (exhaust)": "ts-node src/2-Operators/Transformation/8-exhaust.ts",
+    "start: operators: transformation: Example_9 (exhaustMap)": "ts-node src/2-Operators/Transformation/9-exhaustMap.ts",
+    "start: operators: transformation: Example_10 (expand)": "ts-node src/2-Operators/Transformation/10-expand.ts",
+    "start: operators: transformation: Example_11 (groupBy)": "ts-node src/2-Operators/Transformation/11-groupBy.ts",
+    "start: operators: transformation: Example_12 (map)": "ts-node src/2-Operators/Transformation/12-map.ts",
+    "start: operators: transformation: Example_13 (mapTo)": "ts-node src/2-Operators/Transformation/13-mapTo.ts",
+    "start: operators: transformation: Example_14 (mergeAll)": "ts-node src/2-Operators/Transformation/14-mergeAll.ts",
+    "start: operators: transformation: Example_15 (mergeMap)": "ts-node src/2-Operators/Transformation/15-mergeMap.ts",
+    "start: operators: transformation: Example_16 (mergeMapTo)": "ts-node src/2-Operators/Transformation/16-mergeMapTo.ts",
+    "start: operators: transformation: Example_17 (scan)": "ts-node src/2-Operators/Transformation/17-scan.ts",
+    "start: operators: transformation: Example_18 (mergeScan)": "ts-node src/2-Operators/Transformation/18-mergeScan.ts"
+
 
 
 

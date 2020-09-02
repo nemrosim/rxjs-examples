@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js run start: index: example-1 (of)
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.1/libexec/bin/yarn.js run start: operators: transformation: Example_11 (groupBy)
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/artem.diashkin/Developer/flutter/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/artem.diashkin/PROJECTS/MEDIUM/rxjs-examples/package.json: Unexpected token } in JSON at position 1414
+  SyntaxError: /Users/artem.diashkin/PROJECTS/MEDIUM/rxjs-examples/package.json: Unexpected token } in JSON at position 4129
       at JSON.parse (<anonymous>)
       at /usr/local/Cellar/yarn/1.19.1/libexec/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -35,19 +35,53 @@ npm manifest:
       "start: ex-0-2": "ts-node src/0-Basics/0-2-Observable.ts",
       "start: ex-0-3": "ts-node src/0-Basics/0-3-Subscription.ts",
       "start: ex-1": "ts-node src/0-Basics/1-next-error-complete.ts",
-      "start: index: example-1 (of)": "ts-node src/1-Index/1-of.ts",
-      "start: index: ex-3 (from)": "ts-node src/0-Basics/3-from.ts",
-      "start: index: ex-4 (concat)": "ts-node src/0-Basics/4-concat.ts",
-      "start: index: ex-5-1 (forkJoin)": "ts-node src/0-Basics/5-1-forkJoin.ts",
-      "start: ex-5-2 (forkJoin)": "ts-node src/0-Basics/5-2-forkJoin.ts",
-      "start: ex-6 (iif)": "ts-node src/0-Basics/6-iif.ts",
-      "start: ex-7 (defer)": "ts-node src/0-Basics/7-defer.ts",
-      "start: ex-8-1 (merge)": "ts-node src/0-Basics/8-1-merge.ts",
-      "start: ex-8-2 (merge)": "ts-node src/0-Basics/8-2-merge.ts",
-      "start: ex-9 (ajax)": "node src/0-Basics/9-ajax.js",
-      "start: ex-10 (partition)": "ts-node src/0-Basics/10-partition.ts",
-      "start: ex-11 (range)": "ts-node src/0-Basics/11-range.ts",
-      "start: ex-10 (timer)": "ts-node src/1-Index/10-timer.ts",
+      "start: basic: Example_9 (ajax)": "node src/1-Index/9-ajax.js",
+  
+      "start: index: Example_0 (pipe)": "ts-node src/1-Index/0-pipe.ts",
+      "start: index: Example_1 (of)": "ts-node src/1-Index/1-of.ts",
+      "start: index: Example_2 (from)": "ts-node src/1-Index/2-from.ts",
+      "start: index: Example_3 (concat)": "ts-node src/1-Index/3-concat.ts",
+      "start: index: Example_4-1 (forkJoin)": "ts-node src/1-Index/4-1-forkJoin.ts",
+      "start: index: Example_4-2 (forkJoin)": "ts-node src/1-Index/4-2-forkJoin.ts",
+      "start: index: Example_5 (iif)": "ts-node src/1-Index/5-iif.ts",
+      "start: index: Example_6 (defer)": "ts-node src/1-Index/6-defer.ts",
+      "start: index: Example_7-1 (merge)": "ts-node src/1-Index/7-1-merge.ts",
+      "start: index: Example_7-2 (merge)": "ts-node src/1-Index/7-2-merge.ts",
+      "start: index: Example_8 (partition)": "ts-node src/1-Index/8-partition.ts",
+      "start: index: Example_9 (range)": "ts-node src/1-Index/9-range.ts",
+      "start: index: Example_10 (timer)": "ts-node src/1-Index/10-timer.ts",
+      "start: index: Example_11 (interval)": "ts-node src/1-Index/11-interval.ts",
+      "start: index: Example_12 (bindCallback)": "ts-node src/1-Index/12-bindCallback.ts",
+      "start: index: Example_13 (bindNodeCallback)": "ts-node src/1-Index/13-bindNodeCallback.ts",
+      "start: index: Example_14 (generate)": "ts-node src/1-Index/14-generate.ts",
+      "start: index: Example_15-1 (onErrorResumeNext)": "ts-node src/1-Index/15-1-onErrorResumeNext.ts",
+      "start: index: Example_15-2 (onErrorResumeNext)": "ts-node src/1-Index/15-2-onErrorResumeNext.ts",
+      "start: index: Example_16 (scheduled)": "ts-node src/1-Index/16-scheduled.ts",
+      "start: index: Example_17 (combineLatest)": "ts-node src/1-Index/17-combineLatest.ts",
+      "start: index: Example_18 (isObservable)": "ts-node src/1-Index/18-isObservable.ts",
+      "start: index: Example_19 (pairs)": "ts-node src/1-Index/19-pairs.ts",
+      "start: index: Example_20 (race)": "ts-node src/1-Index/20-race.ts",
+      "start: index: Example_21 (zip)": "ts-node src/1-Index/21-zip.ts",
+      "start: index: Example_22 (throwError)": "ts-node src/1-Index/22-throwError.ts",
+  
+  
+      "start: operators: Example_1 (audit)": "ts-node src/2-Operators/1-1-audit.ts",
+  
+      "start: operators: transformation: Example_1 (buffer)": "ts-node src/2-Operators/Transformation/1-buffer.ts",
+      "start: operators: transformation: Example_2 (bufferCount)": "ts-node src/2-Operators/Transformation/2-bufferCount.ts",
+      "start: operators: transformation: Example_3 (bufferWhen)": "ts-node src/2-Operators/Transformation/3-bufferWhen.ts",
+      "start: operators: transformation: Example_4 (bufferTime)": "ts-node src/2-Operators/Transformation/4-bufferTime.ts",
+      "start: operators: transformation: Example_5 (bufferToggle)": "ts-node src/2-Operators/Transformation/5-bufferToggle.ts",
+      "start: operators: transformation: Example_6 (concatMap)": "ts-node src/2-Operators/Transformation/6-concatMap.ts",
+      "start: operators: transformation: Example_7 (concatMapTo)": "ts-node src/2-Operators/Transformation/7-concatMapTo.ts",
+      "start: operators: transformation: Example_8 (exhaust)": "ts-node src/2-Operators/Transformation/8-exhaust.ts",
+      "start: operators: transformation: Example_9 (exhaustMap)": "ts-node src/2-Operators/Transformation/9-exhaustMap.ts",
+      "start: operators: transformation: Example_10 (expand)": "ts-node src/2-Operators/Transformation/10-expand.ts",
+      "start: operators: transformation: Example_11 (groupBy)": "ts-node src/2-Operators/Transformation/11-groupBy.ts",
+  
+  
+  
+  
     },
     "keywords": [],
     "author": "",
